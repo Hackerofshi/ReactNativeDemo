@@ -27,6 +27,14 @@ import {
 
 import user from './user';
 
+
+// const App: () => React$Node = () => {}
+
+// 就相当于
+// class App extends React.Component {
+//      render() {    }
+// }
+
 const App: () => React$Node = () => {
   return (
     <>

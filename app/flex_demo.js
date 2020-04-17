@@ -150,6 +150,23 @@ export default class FlexDemo extends Component {
                             textAlign: 'right',  //居右
                         }}>距离</Text>
                 </View>
+                <View style={{ alignSelf: 'baseline', justifyContent: 'center', width: 30, height: 30, backgroundColor: "darkcyan", margin: 5 }}>
+                    <Text style={{ fontSize: 16, alignItems: "center", backgroundColor: 'red' }}>1</Text>
+                </View>
+
+
+                <View style={styles1.container}>
+                    <View style={styles1.ViewForTextStyle}>
+                        <Text style={styles1.newTextStyle}>
+                            happy</Text>
+                    </View>
+                    <View style={styles1.ViewForTextStyle}>
+                        <Text style={styles1.newTextStyle}>
+                            忧伤 </Text>
+                    </View>
+                </View>
+
+
 
                 {/* FlexGrow
                     flexGrow属性定义项目的放大比例。
@@ -236,3 +253,34 @@ let styles = StyleSheet.create({
     }
 
 })
+
+
+let styles1 = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    newTextStyle: {
+        fontSize: 30,
+    },
+    textStyle: {
+        height: 100,
+        width: 200,
+        fontSize: 30,
+        backgroundColor: 'gray',
+        textAlign: 'center',
+        justifyContent: 'center',
+        margin: 5
+    },
+    ViewForTextStyle: {
+        height: 100,
+        width: 200,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'gray',
+        margin: 5
+    }
+
+});
+
