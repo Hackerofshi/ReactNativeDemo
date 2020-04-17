@@ -3,6 +3,9 @@ import {
     View, StyleSheet, TextInput, Text,
 } from "react-native";
 
+import {
+    StackRouter
+} from "react-navigation"
 
 export default class FlexDemo extends Component {
 
