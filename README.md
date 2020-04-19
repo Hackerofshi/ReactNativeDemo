@@ -7,4 +7,6 @@
    - "react-native-reanimated": "^1.8.0",
    - "react-native-screens": "^2.5.0",
    - "react-navigation": "^3.13.0"
-   -  "react-lifecycles-compat": "^3.0.4",
+   - "react-lifecycles-compat": "^3.0.4",
+   - npm install prop-types --save 属性检测
+   - npm install --save react-native-vector-icons icon

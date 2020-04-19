@@ -25,7 +25,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import user from './lib/user';
 
 
 // const App: () => React$Node = () => {}
